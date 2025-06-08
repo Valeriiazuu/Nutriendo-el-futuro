@@ -1,0 +1,371 @@
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Nutriendo el Futuro</title>
+<style>
+  :root {
+    --rosa-claro: #F8C8DC;
+    --blanco: #FFFFFF;
+    --rosa-fuerte: #E75480;
+    --gris-oscuro: #555555;
+    --lila: #C8A2C8;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: var(--blanco);
+    color: var(--gris-oscuro);
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  header {
+    background-color: var(--rosa-claro);
+    color: var(--blanco);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .wolf-logo {
+    height: 60px;
+    margin-right: 10px;
+  }
+  header h1 {
+    font-size: 1.8rem;
+    color: var(--blanco);
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  nav ul li {
+    margin-left: 20px;
+  }
+  nav ul li a {
+    color: var(--blanco);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  nav ul li a:hover {
+    color: var(--rosa-fuerte);
+  }
+  main {
+    padding: 20px;
+  }
+  .hero-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: var(--rosa-fuerte);
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  .hero-section h2 {
+    color: var(--rosa-claro);
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+  }
+  .hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  .content-section {
+    background-color: var(--blanco);
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  .content-section h2 {
+    color: var(--rosa-claro);
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--rosa-
+
+fuerte);
+    padding-bottom: 10px;
+  }
+  .content-section ul {
+    list-style: none;
+    padding-left: 20px;
+  }
+  .content-section ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+  }
+  .content-section ul li::before {
+    content: '?';
+    position: absolute;
+    left: 0;
+    color: var(--rosa-claro);
+  }
+  footer {
+    background-color: var(--gris-oscuro);
+    color: var(--blanco);
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 40px;
+  }
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+    nav ul {
+      flex-direction: column;
+      margin-top: 15px;
+    }
+    nav ul li {
+      margin: 5px 0;
+    }
+    .wolf-logo {
+      height: 50px;
+    }
+    .hero-section h2 {
+      font-size: 2rem;
+    }
+  }
+  @media (max-width: 480px) {
+    header h1 {
+      font-size: 1.5rem;
+    }
+    .hero-section h2 {
+      font-size: 1.8rem;
+    }
+    .hero-section p {
+      font-size: 1rem;
+    }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">
+    <img src="logoN.jpg" alt="Logo Nutriendo 
+
+el Futuro" class="wolf-logo">
+    <h1>Nutriendo el Futuro</h1>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Seccion</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="container">
+  <section class="hero-section">
+    <h2>Nutriendo el Futuro</h2>
+    <p>Alimentacion Responsable y 
+
+Sostenible</p>
+  </section>
+
+  <section class="content-section">
+    <h2>Medio Ambiente en el Plantel 20</h2>
+    <p>El Plantel 20 del Valle se esfuerza 
+
+por ser un ejemplo en el cuidado del medio 
+
+ambiente. Nuestras iniciativas son:</p>
+    <ul>
+      <li>Campanas de concientizacion 
+
+ambiental - Realizar platicas, carteles y 
+
+actividades educativas sobre reciclaje, 
+
+ahorro de energia, y cambio climatico.</li>
+      <li>Programa de reciclaje escolar - 
+
+Instalar contenedores diferenciados para 
+
+papel, plastico, aluminio y organicos.</li>
+      <li>Ahorro de energia - Apagar luces y 
+
+aparatos electronicos cuando no se usen.</li>
+      <li>Uso responsable del agua - Colocar 
+
+letreros de conciencia en banos y 
+
+lavabos.</li>
+      <li>Organizar semanas verdes con 
+
+talleres y conferencias.</li>
+    </ul>
+    <p>Tu participacion influye mucho en que 
+
+tengamos un futuro mas verde.</p>
+  </section>
+
+  <section class="content-section">
+    <h2>Alimentacion Saludable para la 
+
+Comunidad Escolar</h2>
+    <p>Fomentar una alimentacion saludable es 
+
+fundamental para el bienestar y rendimiento 
+
+de nuestros estudiantes y personal:</p>
+    <ul>
+      <li>Disminuir la venta de productos 
+
+ultraprocesados como refrescos, papas fritas 
+
+y dulces.</li>
+      <li>Organizar platicas, talleres o 
+
+ferias sobre alimentacion saludable con 
+
+nutricionistas.</li>
+      <li>Colocar carteles informativos con 
+
+datos sobre el contenido calorico y 
+
+nutricional de alimentos comunes.</li>
+      <li>Fomentar el consumo de agua 
+
+potable: instalar bebederos y promover el uso 
+
+de termos personales.</li>
+      <li>Promover el habito de desayunar en 
+
+casa o traer lunch nutritivo, como sandwiches 
+
+integrales, frutas o frutos secos.</li>
+    </ul>
+    <p>Una buena alimentacion es la base de 
+
+una mente y cuerpo sanos.</p>
+  </section>
+
+  <section class="content-section">
+    <h2>Actividades para Fomentar el 
+
+Cambio</h2>
+    <p>Si se puede lograr hacer un cambio en 
+
+nuestra comunidad escolar:</p>
+    <ul>
+      <li>Limpieza general de salones, patios 
+
+y areas comunes.</li>
+      <li>Recoleccion y separacion de 
+
+basura.</li>
+      <li>Talleres de preparacion de snacks 
+
+saludables.</li>
+      <li>Realizacion de un mural por grupo, 
+
+con mensajes positivos sobre el medio 
+
+ambiente o la alimentacion saludable.</li>
+      <li>Organizar una semana con 
+
+actividades tematicas: talleres, 
+
+conferencias, dinamicas, proyecciones de 
+
+documentales y retos ecologicos o de 
+
+salud.</li>
+    </ul>
+    <p>Todos podemos poner nuestro granito de 
+
+arena.</p>
+  </section>
+
+  <section class="content-section">
+    <h2>Propuestas para la Mejora del 
+
+Plantel</h2>
+    <p>Aqui te mostramos nuestras propuestas 
+
+para mejorar el plantel:</p>
+    <ul>
+      <li>Establecer rondas semanales de 
+
+limpieza voluntaria con participacion de 
+
+alumnos por grupo.</li>
+      <li>Organizar charlas sobre cambio 
+
+climatico, huella ecologica y acciones 
+
+individuales.</li>
+      <li>Instalar mas botes de basura 
+
+diferenciados (organico, inorganico, 
+
+reciclaje) en patios, pasillos y 
+
+salones.</li>
+      <li>Usar grupos de WhatsApp o 
+
+plataformas escolares para mantener 
+
+informados a los estudiantes sobre eventos, 
+
+avisos o actividades.</li>
+      <li>Regular lo que se vende en la 
+
+cafeteria: mas frutas, snacks saludables y 
+
+agua.</li>
+    </ul>
+    <p>Tambien puedes proponer algunas de tus 
+
+soluciones.</p>
+  </section>
+
+  <section class="content-section">
+    <h2>Tambien nos importa lo que tu 
+
+opinas</h2>
+    <p>Aqui puedes decirnos tus comentarios y 
+
+sugerencias. Por favor, utiliza el formulario 
+
+de abajo para enviarnos tus sugerencias. Tu 
+
+voz es fundamental para seguir construyendo 
+
+un mejor Plantel 20.</p>
+    <iframe 
+
+src="https://docs.google.com/forms/d/e/1FAIpQ
+
+LSfaRPM8QPWAqaYc7ZJIUOyHlBLMfGBIqfVcOyjwL1H-
+
+021_qg/viewform?embedded=true" width="640" 
+
+height="494" frameborder="0" marginheight="0" 
+
+marginwidth="0">Cargando…</iframe>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Nutriendo el Futuro. Todos 
+
+los derechos reservados.</p>
+</footer>
+</body>
+</html>
